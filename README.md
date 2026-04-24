@@ -2,25 +2,17 @@
 
 *Fecha de publicación: 30/12/2025*
 
-<aside>
-<img src="notion://custom_emoji/6e329065-8a2a-4674-8b53-f30b931b0788/2d9c6d8e-2bde-8001-8561-007a9afe3e0e" alt="notion://custom_emoji/6e329065-8a2a-4674-8b53-f30b931b0788/2d9c6d8e-2bde-8001-8561-007a9afe3e0e" width="40px" />
-
-Iker Marín López (IML15)
-
-Estudiante de Ingeniería de la Ciberseguridad (Universidad Rey Juan Carlos)
-
-**Links:** 🔗 [LinkedIn](https://www.linkedin.com/in/iker-marin-lopez-90791b379/) | 🐱 [GitHub](https://github.com/IML15) | 📥 [Telegram](https://t.me/hueco44)
-
-</aside>
+> [!NOTE]
+> **Iker Marín López (IML15)**
+>
+> Estudiante de Ingeniería de la Ciberseguridad (Universidad Rey Juan Carlos)
+>
+> **Links:** 🔗 [LinkedIn](https://www.linkedin.com/in/iker-marin-lopez-90791b379/) | 🐱 [GitHub](https://github.com/IML15) | 📥 [Telegram](https://t.me/hueco44)
 
 Este repositorio irá dedicado a enseñar un payload para un Rubber Ducky cualquiera con el que comprometeremos la seguridad de un ordenador Windows11 y ejecutaremos una Reverse Shell.
 
-<aside>
-<img src="notion://custom_emoji/6e329065-8a2a-4674-8b53-f30b931b0788/2d9c6d8e-2bde-8001-8561-007a9afe3e0e" alt="notion://custom_emoji/6e329065-8a2a-4674-8b53-f30b931b0788/2d9c6d8e-2bde-8001-8561-007a9afe3e0e" width="40px" />
-
-⚠️ **ADVERTENCIA:** *Este documento ha sido realizado con fines exclusivamente educativos en un entorno controlado. El autor no se hace responsable del mal uso de la información aquí expuesta.*
-
-</aside>
+> [!WARNING]
+> **ADVERTENCIA:** Este documento ha sido realizado con fines exclusivamente educativos en un entorno controlado. El autor no se hace responsable del mal uso de la información aquí expuesta.
 
 - **Sugerencia**: si no se dispone de un Rubber Ducky, también podríais desactivar el Windows defender manualmente siguiendo los pasos del [payload](https://www.notion.so/Reverse-Shell_Rubber-Ducky-2a3c6d8e2bde80908494fbc559c7fbca?pvs=21) (adjuntado más adelante) y probar el comando que ejecuta la Reverse Shell como práctica (así podrías verificar el funcionamiento de la Reverse Shell y estudiar el mismo).
 
