@@ -14,13 +14,13 @@ Este repositorio irá dedicado a enseñar un payload para un Rubber Ducky cualqu
 > [!WARNING]
 > **ADVERTENCIA:** Este documento ha sido realizado con fines exclusivamente educativos en un entorno controlado. El autor no se hace responsable del mal uso de la información aquí expuesta.
 
-- **Sugerencia**: si no se dispone de un Rubber Ducky, también podríais desactivar el Windows defender manualmente siguiendo los pasos del [payload](https://www.notion.so/Reverse-Shell_Rubber-Ducky-2a3c6d8e2bde80908494fbc559c7fbca?pvs=21) (adjuntado más adelante) y probar el comando que ejecuta la Reverse Shell como práctica (así podrías verificar el funcionamiento de la Reverse Shell y estudiar el mismo).
+- **Sugerencia**: si no se dispone de un Rubber Ducky, también podríais desactivar el Windows defender manualmente siguiendo los pasos del [payload](#payload) (adjuntado más adelante) y probar el comando que ejecuta la Reverse Shell como práctica (así podrías verificar el funcionamiento de la Reverse Shell y estudiar el mismo).
 
 ## 1. Preparación de las máquinas (Atacante y Víctima)
 
 Crearemos dos máquinas en **VMware** (en nuestro caso una Kali-Linux [atacante] y una máquina Windows11 “25H2” [víctima]) y las configuraremos de modo que las máquinas compartan la misma red en uno de sus adaptadores red (este segundo adaptador lo crearemos antes de iniciar las máquinas). En mi caso, he creado una red llamada “Red InternaIML15” que será la que usen ambas máquinas y que además será de uso privado para el host (nosotros). 
 
-**Si ya sabes como hacer este paso de conectar las máquinas a la misma red, pasa directamente al siguiente paso ([siguiente paso](https://www.notion.so/Reverse-Shell_Rubber-Ducky-2a3c6d8e2bde80908494fbc559c7fbca?pvs=21))** 
+**Si ya sabes como hacer este paso de conectar las máquinas a la misma red, pasa directamente al siguiente paso ([siguiente paso](#siguiente-paso))** 
 
 ![image.png](images/image.png)
 
@@ -35,6 +35,8 @@ Crearemos dos máquinas en **VMware** (en nuestro caso una Kali-Linux [atacante]
 ![image.png](images/image%205.png)
 
 ![image.png](images/image%206.png)
+
+<a id="siguiente-paso"></a>
 
 ## 2. Preparación del entorno
 
@@ -115,6 +117,8 @@ Al igual que cuando levantamos el servidor, dejaremos esta pestaña donde ejecut
 ## 3. Ataque
 
 Una vez todos los preparativos puestos en marcha, iniciaremos la fase de ataque. Mediante un dispositivo que funcione como un Rubber Ducky, ejecutaremos la desactivación del anti-virus Windows Defender y posteriormente ejecutaremos el comando IEX desde el que automáticamente se ejecutará el código almacenado en nuestro archivo html  (prueba.html), generado por [revershells.com](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjf9oXLxt6QAxUtSPEDHStUI_kQFnoECAwQAQ&url=https%3A%2F%2Frevshells.com%2F&usg=AOvVaw2kSgZf8n__rsePim87CfRv&opi=89978449), con el que se generará la Reverse Shell y con la que tendremos acceso completo al sistema atacado. 
+
+<a id="payload"></a>
 
 Nuestro payload está programado de la siguiente forma:
 
@@ -205,14 +209,32 @@ Una vez creado el archivo dentro de el directorio que deseemos, podremos verific
 
 ## Documentación
 
-[HackTricks - HackTricks](https://book.hacktricks.wiki/en/index.html)
+> [!NOTE]
+> **HackTricks**  
+> Guía de referencia para técnicas, payloads y cheat sheets de seguridad.  
+> https://book.hacktricks.wiki/en/index.html
 
-[Web Application Security, Testing, & Scanning - PortSwigger](https://portswigger.net/)
+> [!NOTE]
+> **Web Application Security, Testing, & Scanning - PortSwigger**  
+> Recursos y herramientas para seguridad en aplicaciones web, testing y scanning.  
+> https://portswigger.net/
 
-[PayloadsAllTheThings/Methodology and Resources/Reverse Shell Cheatsheet.md at master · swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
+> [!NOTE]
+> **PayloadsAllTheThings - Reverse Shell Cheatsheet**  
+> Colección de payloads y referencias para reverse shells y pentesting.  
+> https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
 
-[Online - Reverse Shell Generator](https://www.revshells.com/)
+> [!NOTE]
+> **Online - Reverse Shell Generator**  
+> Generador online de reverse shells con opciones como Base64 y MSFVenom.  
+> https://www.revshells.com/
 
-[Hak5 - Product Documentation](https://docs.hak5.org/)
+> [!NOTE]
+> **Hak5 - Product Documentation**  
+> Documentación oficial para productos y herramientas Hak5.  
+> https://docs.hak5.org/
 
-[Reverse Shell Cheat Sheet](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
+> [!NOTE]
+> **Reverse Shell Cheat Sheet**  
+> Hoja de referencia rápida con ejemplos de shells reversas.  
+> https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
