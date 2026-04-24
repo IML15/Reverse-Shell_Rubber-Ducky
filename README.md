@@ -183,7 +183,10 @@ Una vez todos los preparativos puestos en marcha, iniciaremos la fase de ataque.
 
 <a id="payload"></a>
 
-Nuestro payload está programado de la siguiente forma:
+<br>
+
+
+Nuestro payload está programado de la siguiente forma [(payload)](payloads/ReverseShell.txt):
 
 ```python
 REM TITLE: Disable Windows Defender + Reverse Shell
