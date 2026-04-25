@@ -5,7 +5,7 @@
 > [!NOTE]
 > **Iker Marín López (IML15)**
 >
-> Estudiante de Ingeniería de la Ciberseguridad (Universidad Rey Juan Carlos)
+> Cybersecurity Engineer (Universidad Rey Juan Carlos)
 >
 > **Links:** 🔗 [LinkedIn](https://www.linkedin.com/in/iker-marin-lopez-90791b379/) | 🐱 [GitHub](https://github.com/IML15) | 📥 [Telegram](https://t.me/hueco44)
 
